@@ -310,6 +310,13 @@ export class AppComponent {
   };
 }
 ```
+##### 7. Metamask
+Metamask acts as web3 injector to our page.
+
+- Add extension to your chrome browser
+- Add custom RPC with your ganache rpc url which would http://localhost:7545
+- You can see your ganache generated first account in metamask accounts list
+- You user submits a change from page which invokes the contract method, metamask asks for confirmation
 
 Now ready to the serve the app
 Change directory to the ethereumdapp
@@ -317,14 +324,19 @@ Change directory to the ethereumdapp
 D:\blockchain\ethereum>cd ethereumdapp
 D:\blockchain\ethereum\ethereumdapp>ng serve -o
 ```
-It opens the browser with localhost:4200 and shows our page.
+It opens the browser with http://localhost:4200 and shows our page.
 
 enter the name in new name textbox and hit submit
-**Free Software, Hell Yeah!**
 
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+##### 8. Conclusion
+If you do not want to generate all the files, you simply download this repository and install prereqs. It will be ready
+
+For help: contact
+
+- Sreenivas Chinni
+- schinni.vija@gmail.com
 
 [truffle]: <http://truffleframework.com/>
 [angular-cli]: <https://cli.angular.io/>
 [ganache]: <http://truffleframework.com/ganache/>
-   [MetaMask]: <https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn>
+[MetaMask]: <https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn>
