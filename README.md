@@ -249,7 +249,7 @@ export class AppComponent {
 
       if (accs.length === 0) {
         alert(
-          'Couldn\'t get any accounts! Make sure your Ethereum client is configured correctly.'
+          'Couldn\'t get any accounts! Make sure your Ethereum client is configured correctly.' 
         );
         return;
       }
